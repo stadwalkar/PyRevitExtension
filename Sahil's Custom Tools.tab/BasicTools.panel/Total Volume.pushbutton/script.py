@@ -26,4 +26,5 @@ for wall in cl:
 		total_volume = total_volume + vol_param.AsDouble()
 
 #results
-print("Total Volume is: {}".format(total_volume))
+
+TaskDialog.Show("Total Volume","Total volume of all the walls is: {}".format(total_volume) + " ft3")
